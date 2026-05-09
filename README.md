@@ -12,8 +12,8 @@
 
 <!-- Social Badges -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-ahmedyasser.vercel.app-e94560?style=for-the-badge&logo=vercel&logoColor=white)](https://ahmedyasser.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-ahmedyasser2002-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedyasser2002)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Yasser-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedyassersellow)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedyassersellow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedyassersellow)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Yasser-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedyasser2002)
 [![Email](https://img.shields.io/badge/Gmail-ahmedyasser3554-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmedyasser3554@gmail.com)
 
 </div>
