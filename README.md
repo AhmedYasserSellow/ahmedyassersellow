@@ -12,6 +12,7 @@
 
 <!-- Social Badges -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-ahmedyasser.vercel.app-e94560?style=for-the-badge&logo=vercel&logoColor=white)](https://ahmedyasser.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedyasser2002-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedyasser2002)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Yasser-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedyassersellow)
 [![Email](https://img.shields.io/badge/Gmail-ahmedyasser3554-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmedyasser3554@gmail.com)
 
@@ -37,6 +38,7 @@ class AhmedYasser extends FlutterDeveloper {
   final List<String> superPowers = [
     "BLoC / Cubit state management",
     "Clean Architecture & SOLID principles",
+    "MVC pattern",
     "GetIt dependency injection",
     "Dio + custom ApiClient wrappers",
     "Firebase integration",
@@ -61,6 +63,7 @@ class AhmedYasser extends FlutterDeveloper {
 ### 🧠 Architecture & State
 ![BLoC](https://img.shields.io/badge/BLoC%20%2F%20Cubit-6B52AE?style=for-the-badge&logo=flutter&logoColor=white)
 ![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-e94560?style=for-the-badge&logo=buffer&logoColor=white)
+![MVC](https://img.shields.io/badge/MVC-Pattern-34495E?style=for-the-badge&logo=buffer&logoColor=white)
 ![GetIt](https://img.shields.io/badge/GetIt-DI-00897B?style=for-the-badge&logo=dart&logoColor=white)
 
 ### 🌐 Networking & Storage
@@ -88,45 +91,49 @@ class AhmedYasser extends FlutterDeveloper {
 
 ### 📱 Mobile Apps
 
-| Project | Description | Stack | Link |
-|---|---|---|---|
-| 🌿 **Thimar** | Full-featured e-commerce app with cart, orders & cache-first architecture | Flutter · BLoC · GetIt · Dio | *In Progress* |
-| 🎾 **Padel Club** | Helps padel clubs manage their bookings and customers | Flutter · Dart | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| 🎬 **Eye Go Movies** | Helps users find and watch movies | Flutter · Dart · API · Firebase | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| 💬 **Quotes** | Generate quotes and explore their authors | Flutter · Dart · Firebase | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| 🌍 **Global World Clock** | Track and compare time zones worldwide, making global scheduling effortless | Flutter · Dart · API | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| 📸 **Photo Hub** | Discover, save and share inspiring photos | Flutter · Dart · Firebase | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| 🎓 **College App** | Manage student life and campus events, keeping students informed and connected | Flutter · Dart · Firebase | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
-| ✅ **To-Do App** | Manage your tasks and stay organized | Flutter · Dart · SQLite | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
+| Project | Description | Stack |
+|---|---|---|
+| Thimar | Full-featured e-commerce app with cart, orders & cache-first architecture | Flutter · BLoC · GetIt · Dio |
+| Padel Club | Helps padel clubs manage their bookings and customers | Flutter · Dart |
+| Eye Go Movies | Helps users find and watch movies | Flutter · Dart · API · Firebase |
+| Quotes | Generate quotes and explore their authors | Flutter · Dart · Firebase |
+| Global World Clock | Track and compare time zones worldwide | Flutter · Dart · API |
+| Photo Hub | Discover, save and share inspiring photos | Flutter · Dart · Firebase |
+| College App | Manage student life and campus events | Flutter · Dart · Firebase |
+| To-Do App | Manage your tasks and stay organized | Flutter · Dart · SQLite |
 
 ### 🌐 Web Apps
 
-| Project | Description | Links |
+| Project | Description | Link |
 |---|---|---|
-| 🎨 **Bussma Designs Studio** | Multi-form web app for an engineering office to collect and manage surveys & evaluation data | [![Live](https://img.shields.io/badge/Live-e94560?style=flat-square&logo=vercel&logoColor=white)](https://bussma-designs-studio.vercel.app/) |
-| 🎮 **LoL Share** | Helps League of Legends boosters share accounts and track their boosting progress | [![Live](https://img.shields.io/badge/Live-e94560?style=flat-square&logo=vercel&logoColor=white)](https://lolshare-iota.vercel.app/) |
-| 🖥️ **Portfolio** | You are using it right now | [![Live](https://img.shields.io/badge/Live-e94560?style=flat-square&logo=vercel&logoColor=white)](https://ahmedyasser.vercel.app/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedyasser2002) |
+| Bussma Designs Studio | Multi-form web app for an engineering office to collect and manage surveys & evaluation data | [Live](https://bussma-designs-studio.vercel.app/) |
+| LoL Share | Helps League of Legends boosters share accounts and track their boosting progress | [Live](https://lolshare-iota.vercel.app/) |
+| Portfolio | You are using it right now | [Live](https://ahmedyasser.vercel.app/) |
 
 ---
 
 ## 📐 Architecture Philosophy
 
 ```
-┌─────────────────────────────────────────────────┐
-│                 Presentation Layer               │
-│   BlocBuilder(bloc: sl<XCubit>())  ·  Widgets   │
-├─────────────────────────────────────────────────┤
-│                  Business Logic                  │
-│        Cubit  ·  States  ·  FetchHelper          │
-├─────────────────────────────────────────────────┤
-│                   Data Layer                     │
-│  ApiClient (Dio)  ·  SharedPrefs Cache  ·  DTOs  │
-└─────────────────────────────────────────────────┘
-         ↕ GetIt Service Locator (sl<T>())
+┌─────────────────────────────────────────────────────┐
+│                  Presentation Layer                  │
+│    BlocBuilder(bloc: sl<XCubit>())  ·  Widgets       │
+│              View  ·  Controller (MVC)               │
+├─────────────────────────────────────────────────────┤
+│                   Business Logic                     │
+│         Cubit  ·  States  ·  FetchHelper             │
+│              Model  ·  Controller (MVC)              │
+├─────────────────────────────────────────────────────┤
+│                    Data Layer                        │
+│   ApiClient (Dio)  ·  SharedPrefs Cache  ·  DTOs     │
+│                  Model (MVC)                         │
+└─────────────────────────────────────────────────────┘
+           ↕ GetIt Service Locator (sl<T>())
 ```
 
 **Core principles I live by:**
 - ✅ Composition over inheritance
+- ✅ MVC for clean separation of UI, logic, and data
 - ✅ Reusable `FetchHelper` for cache-first logic
 - ✅ Global Cubit access via GetIt — no `BlocProvider` tree pollution
 - ✅ Cache invalidation via `jsonEncode` string comparison
@@ -137,15 +144,15 @@ class AhmedYasser extends FlutterDeveloper {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedyasser2002&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedyassersellow&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedyasser2002&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=6"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedyassersellow&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=6"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=ahmedyasser2002&theme=radical&hide_border=true&background=0d1117&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=a8b2d8&sideLabels=a8b2d8&dates=a8b2d8)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=ahmedyassersellow&theme=radical&hide_border=true&background=0d1117&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=a8b2d8&sideLabels=a8b2d8&dates=a8b2d8)](https://git.io/streak-stats)
 
 </div>
 
