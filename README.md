@@ -144,14 +144,6 @@ class AhmedYasser extends FlutterDeveloper {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedyassersellow&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedyassersellow&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=6" />
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=ahmedyassersellow&theme=radical&hide_border=true&background=0d1117&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=a8b2d8&sideLabels=a8b2d8&dates=a8b2d8)](https://github.com/ahmedyassersellow)
 
 </div>
